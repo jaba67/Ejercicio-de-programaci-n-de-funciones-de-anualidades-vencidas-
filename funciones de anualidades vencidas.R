@@ -5,8 +5,8 @@
 
 # formula VF(valor Futuro)
 
-VF=function(A, r, t){
-  exit=A*((1+r)^t-1)/r
+VF=function(A, r, Tper){
+  exit=A*((1+r)^Tper-1)/r
    return(exit)
 }
 
