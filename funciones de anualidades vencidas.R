@@ -12,8 +12,9 @@ VF=function(A, r, Tper){
 
 # Fórmula para calcular la anualidad , conociendo valor futuro, tasa del periodo y número de pagos
 
-A=function(VF,r,Tper){
-  exit=(VF*r)/((1+r)^t-1)
+function A(VF,r,Tper) {
+  let A =(VF*r)/((1+r)**Tper-1);
+  return A;
 }
 
 # Fórmula para calcular el Número de pagos o plazo, conociendo valor futuro, anualidad y tasa del periodo
