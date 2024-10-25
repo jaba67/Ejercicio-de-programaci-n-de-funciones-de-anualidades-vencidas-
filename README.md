@@ -5,7 +5,7 @@
 Las siguientes formulas puedes utilizarlas para realizar los calculos de las funciones de las anualidades vencidas 
 
 ```{r}
-source("https://raw.githubusercontent.com/jaba67/Ejercicio-de-programaci-n-de-funciones-de-anualidades-vencidas-/refs/heads/main/funciones%20de%20anualidades%20vencidas.R")
+source("https://raw.githubusercontent.com/jaba67/Ejercicio-de-programaci-n-de-funciones-de-anualidades-vencidas-/refs/heads/main/unciones%20de%20anualidades%20vencidas.R")
 ```
 
 se daran ejemplos a contunuacion del uso de las formulas en problemas practicos para su mejor entendimiento
