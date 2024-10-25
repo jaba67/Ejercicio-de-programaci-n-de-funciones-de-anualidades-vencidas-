@@ -35,16 +35,16 @@ ValorFuturo
 
 se tienen los siguientes datos:
 
-$VF$=46,000.00
-$r$=2.00% mensual
-$t$=30 meses
+$VF$=50,000
+$r$=6%=0.06 (convertido a decimal) anual
+$t$=60
 
 Se realizan los calculos:
 
 ```{r}
 # Creamos objetos con los valores de entrada:
-VF=46000
-r=0.02
+VF=50000
+r=0.06
 t=60
 # Calculamos la anualidad
 Anualidad=A(VF,r,t)
