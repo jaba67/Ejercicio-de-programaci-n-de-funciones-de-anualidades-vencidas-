@@ -77,3 +77,105 @@ NumeroDePagos
 
 se tienen los siguientes datos:
 
+$VF$=20,000.00
+$A$=244.89
+$t$=60 meses
+
+Se realizan los calculos:
+
+```{r}
+# Creamos objetos con los valores de entrada:
+VF=20000
+A=244.89
+t=60
+# Calculamos la tasa del periodo
+tasa=r(VF,A,t)
+# Imprimimmos el resultado: 
+tasa
+```
+
+###Calculo del valor actual, conociendo la anualidad, tasa de interés del periodo y el número (plazo) de anualidades
+
+
+se tienen los siguientes datos:
+
+$A$=244.89
+$r$=1% mensual
+$t$=60 meses
+
+Se realizan los calculos:
+
+```{r}
+# Creamos objetos con los valores de entrada:
+A=244.89
+r=0.01
+t=60
+# Calculamos la tasa del periodo
+ValorActual=VA(A,r,t)
+# Imprimimmos el resultado: 
+ValorActual
+```
+
+###Calculo de la anualidad, conociendo valor actual, tasa del periodo y número de pagos
+
+se tienen los siguientes datos:
+
+$VA$=10,000.00
+$r$=1% mensual
+$t$=60 meses
+
+Se realizan los calculos:
+
+```{r}
+# Creamos objetos con los valores de entrada:
+VA=10000
+r=0.01
+t=60
+# Calculamos la anualidad
+anualidad=A(VA,r,t)
+# Imprimimmos el resultado: 
+anualidad
+```
+
+###Calculo de el número de pagos o plazo, conociendo valor actual, anualidad y tasa del periodo
+
+se tienen los siguientes datos:
+
+$VA$=5,000.00
+$A$=100.00
+$r$=1.00% mensual
+
+Se realizan los calculos:
+
+```{r}
+# Creamos objetos con los valores de entrada:
+VA=5000
+A=100
+r=0.01
+# Calculamos el número de pagos
+numeroDePagos=t(VA,A,r)
+# Imprimimmos el resultado: 
+numeroDePagos
+```
+
+###Calculo la tasa del periodo, conociendo valor actual, número de pagos y monto de la anualidad.
+
+se tienen los siguientes datos:
+
+$VA$=4,000.00
+$A$=100.00
+$t$=36 meses
+
+Se realizan los calculos:
+
+```{r}
+# Creamos objetos con los valores de entrada:
+VA=4000
+A=100
+t=36
+# Calculamos el número de pagos
+tasa=r(VA,A,t)
+# Imprimimmos el resultado: 
+tasa
+```
+
