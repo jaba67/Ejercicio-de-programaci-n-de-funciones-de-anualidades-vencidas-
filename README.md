@@ -64,7 +64,7 @@ Se realizan los calculos:
 
 ```{r}
 # Creamos objetos con los valores de entrada:
-VF=20000
+VF=10000
 A=201.40
 r=0.01
 # Calculamos el numero de pagos
@@ -72,3 +72,8 @@ NumeroDePagos=t(VF,A,r)
 # Imprimimmos el resultado: 
 NumeroDePagos
 ```
+
+###Calculo de  la tasa del periodo, conociendo valor futuro, número de pagos y monto de la anualidad
+
+se tienen los siguientes datos:
+
