@@ -22,13 +22,18 @@ Se realizan los calculos:
 
 ```{r}
 # Creamos objetos con los valores de entrada:
-A=2000
-r=0.05
-t=10
+A <- 2000
+r <- 0.05
+Tper <- 10
+
 # Calculamos el valor futuro
-VF <- function(A, r, Tper)
-# Imprimimmos el resultado: 
-VF
+VF <- function(A, r, Tper) {
+  return(A * (((1 + r)^Tper - 1) / r))
+}
+
+# Imprimimos el resultado:
+VF(A, r, Tper)
+
 ```
 
 
